@@ -1,0 +1,17 @@
+friendlyfeud/
+│
+├── index.html              # main UI and entry point
+├── /css/
+│   └── style.css           # all styles
+├── /js/
+│   ├── main.js             # main game logic (UI + gameplay)
+│   ├── firebase.js         # Firebase configuration and multiplayer sync
+│   ├── gameData.js         # parses and loads the Family Feud data
+│   └── ui.js               # handles animations, modals, and sound
+├── /assets/
+│   ├── logo.png
+│   ├── buzz.mp3
+│   ├── correct.mp3
+│   └── bg-music.mp3
+└── /data/
+    └── questions.json      # converted version of your Excel database
